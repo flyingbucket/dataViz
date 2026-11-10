@@ -1,9 +1,11 @@
 [project]
 name = "dataviz"
 version = "0.1.0"
-description = "Add your description here"
+description = "Spatial and structural data visualization toolkit"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = "==3.14.*"
 dependencies = [
-    "pandas>=3.1.0",
+  "pandas>=3.1.0",
+  # "qgis>=4.2.3",   # system-site-package
+  # "pymol>=3.1.0",  # system-site-package
 ]
